@@ -1,0 +1,177 @@
+.registation h1{
+  @apply text-3xl font-semibold text-blue-500 text-center mt-6
+}
+.registation input{
+  @apply w-full my-2 border border-blue-500 rounded-md outline-indigo-400 py-1 px-1
+}
+.registration-form{
+  @apply py-5 px-3
+}
+.registration-form h2{
+    @apply bg-white text-3xl font-semibold text-blue-500 text-center mb-2 py-3 rounded
+} 
+.button_v_1{
+    @apply w-full text-white font-semibold text-lg my-2 border bg-blue-500 rounded-md py-1 px-1
+    transition hover:text-yellow-300  hover:bg-cyan-400 duration-300 ease-in
+  }
+.button_v_2{
+    @apply text-white font-semibold text-lg my-0 border bg-purple-500 rounded-md px-1
+    transition hover:text-yellow-300  hover:bg-cyan-400 duration-300 ease-in
+  }
+.button_v_3{
+    @apply w-full text-white font-semibold text-base border bg-blue-500 rounded-md py-1 px-3
+    transition hover:text-yellow-300  hover:bg-cyan-400 duration-300 ease-in
+  }
+.button_v_4{
+    @apply w-full text-white font-semibold text-base border bg-rose-500 rounded-md py-1 px-2
+    transition hover:text-yellow-300  hover:bg-cyan-400 duration-300 ease-in
+  }
+.button_v_5{
+    @apply w-full text-rose-500 font-semibold text-base border bg-yellow-300 rounded-md py-1 px-2
+    transition hover:text-rose-500  hover:bg-cyan-400 duration-300 ease-in
+  }
+p{
+  @apply text-red-500 text-lg
+}
+
+/* ***** login start ***** */
+.login h1{
+  @apply text-3xl font-semibold text-blue-500 text-center mt-4
+}
+.login-form{
+  @apply py-5 px-3
+}
+.login input{
+  @apply w-full border rounded-md border-blue-500 my-2 px-1 py-1 outline-indigo-400
+}
+.login-form h2{
+  @apply bg-white text-3xl font-semibold text-blue-500 text-center mb-2 py-3 rounded
+}
+/* ***** login end ***** */
+
+/* ***** forgot-password start ***** */
+#forgot_password h2{
+  @apply text-3xl text-blue-500 text-center capitalize font-semibold mb-3
+}
+#forgot_password input{
+ @apply w-full my-2 border border-blue-500 rounded-md outline-indigo-400 py-1 px-1
+}
+/* ***** forgot-password end ***** */
+
+/* ==== navbar start ==== */
+nav .profileAndName{
+  @apply flex items-center gap-5
+}
+nav .profileAndName .img{
+  @apply w-[90px] h-[85px] rounded-full bg-gray-400 overflow-hidden
+}
+nav .profileAndName h2{
+  @apply text-xl capitalize font-semibold text-white
+}
+nav .menu_item svg{
+  @apply text-3xl text-white
+}
+nav .menu_item svg{
+  @apply hover:text-amber-400
+}
+
+/* ===== profile update start ===== */
+.defaultProfilePic{
+  @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
+}
+#navbar .overlay{
+  @apply absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 cursor-pointer 
+}
+#navbar .overlay svg{
+  @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-4xl 
+}
+#navbar .modal{
+  @apply w-full h-full absolute top-0 left-0 bg-blue-500 z-[999] flex justify-center items-center 
+}
+#navbar .modal .profileImage{
+  @apply w-[50%] p-10 rounded-lg bg-white
+}
+#navbar .modal h2{
+  @apply text-2xl font-semibold text-blue-500
+}
+/* ===== profile update end ===== */
+
+/* ==== navbar end ==== */
+
+/* ==== home file ea ==== */
+.main_content{
+  @apply p-2 flex justify-between flex-wrap
+}
+.main_content .item{
+  @apply w-[32.5%] p-4 border-2 border-blue-500 mb-5 rounded-lg h-[350px]  
+  overflow-y-scroll
+}
+.main_content .title{
+  @apply flex justify-between items-center mb-3 rounded 
+}
+.main_content .title h2{
+  @apply text-2xl font-semibold text-blue-500 ml-3
+}
+.main_content .title svg{
+  @apply text-2xl text-sky-500
+}
+.main_content .item .title{
+  @apply w-full sticky top-0 left-0 py-3 bg-red-100
+}
+::-webkit-scrollbar{
+  @apply w-1
+}
+::-webkit-scrollbar-thumb{
+  @apply bg-blue-500 rounded-2xl
+}
+/* ==== home file ==== */
+
+/* ==== Search start ==== */
+.search{
+  @apply border border-blue-500 rounded-lg py-1 outline-none pl-5
+}
+/* ==== Search end ==== */
+
+/* ===== chat friends start ===== */
+.chat_friends .item{
+  @apply w-[32.5%] p-4 border-2 border-blue-500 mb-5 rounded-lg h-[350px]  
+  overflow-y-scroll
+}
+.title{
+  @apply flex justify-between items-center mb-3 rounded 
+}
+ .title h2{
+  @apply text-2xl font-semibold text-blue-500 ml-3
+}
+ .title svg{
+  @apply text-2xl text-sky-500
+}
+.item_friends .title{
+  @apply w-full sticky top-0 left-0 py-3 bg-red-100
+}
+::-webkit-scrollbar{
+  @apply w-1
+}
+::-webkit-scrollbar-thumb{
+  @apply bg-blue-500 rounded-2xl
+}
+/* ===== chat friends end ===== */
+
+
+
+
+
+/* ==== group_list start ==== */
+/* .list{
+  @apply flex justify-between items-center 
+}
+.list .img{
+  @apply h-[60px] w-[60px] rounded-full overflow-hidden bg-slate-500
+}
+.list h2{
+  @apply text-lg font-semibold
+}
+.list p{
+  @apply text-base text-gray-500
+} */
+/* ==== group_list end ==== */
