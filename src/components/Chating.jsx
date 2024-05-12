@@ -75,7 +75,7 @@ const Chating = () => {
       });
       setMessageList(array);
     });
-  }, [activeChatName.active.id]);
+  }, [activeChatName.active?.id]);
   // ====================== handle message end ========================
 
   // ====================== handleImgUpload Start ========================
@@ -138,7 +138,7 @@ const Chating = () => {
           </div>
           {/* ===================== identify end ===================== */}
 
-          {activeChatName.active.status == "single" ? (
+          {activeChatName.active?.status == "single" ? (
             messageList.map((item, i) => {
               return item.whoSendId == data.uid ? (
                 item.Message ? (
